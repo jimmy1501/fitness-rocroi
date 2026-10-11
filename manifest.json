@@ -1,0 +1,10 @@
+{
+  "name": "Fitness Rocroi",
+  "short_name": "Fitness Rocroi",
+  "description": "Informations pratiques et tarifs de Fitness Rocroi",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#1554a5",
+  "icons": []
+}

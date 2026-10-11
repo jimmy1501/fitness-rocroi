@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#d71920">
+<meta name="description" content="Fitness Rocroi : informations pratiques, activités et tarifs.">
+<link rel="manifest" href="manifest.json">
+<title>Fitness Rocroi</title>
+<style>
+:root{--red:#1554a5;--dark:#111;--paper:#f5f5f5;--muted:#666}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:#181818}
+header{background:linear-gradient(135deg,#111 0%,#292929 62%,#1554a5 62%,#1554a5 100%);color:#fff;padding:28px 20px 32px}
+.wrap{max-width:850px;margin:auto}.brand{font-size:13px;letter-spacing:3px;font-weight:800;color:#fff}.brand span{color:#8db9ef}
+h1{font-size:clamp(32px,7vw,52px);line-height:1;margin:15px 0 10px;font-weight:900;text-transform:uppercase}
+header p{margin:0;color:#f1f1f1;font-size:17px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-block;border:0;border-radius:10px;padding:13px 16px;font-weight:800;text-decoration:none;cursor:pointer}
+.btn-red{background:var(--red);color:#fff}.btn-white{background:#fff;color:#111}.btn-dark{background:#181818;color:#fff}
+main{max-width:850px;margin:auto;padding:18px 16px 40px}.section-title{font-size:22px;margin:22px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{background:#fff;border-radius:16px;padding:18px;box-shadow:0 3px 14px #0000000b;border:1px solid #e8e8e8}
+.icon{font-size:25px}.card h3{margin:8px 0}.card p{color:#555;line-height:1.5;margin:7px 0}
+.price{font-size:35px;font-weight:900;color:var(--red);margin:6px 0}.small{font-size:13px;color:var(--muted)}
+.hours{display:flex;justify-content:space-between;gap:15px;padding:9px 0;border-bottom:1px solid #eee}
+.hours:last-child{border:0}.hours strong{white-space:nowrap}
+footer{text-align:center;padding:24px 16px;background:#111;color:#ddd;font-size:13px}footer a{color:#fff}
+.notice{border-left:4px solid var(--red);padding:12px 14px;background:#fff;border-radius:8px;color:#555;line-height:1.5}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand"><img src="logo-fitness-rocroi.jpg" alt="Logo officiel Fitness Rocroi" style="display:block;width:min(210px,65%);height:auto;border-radius:12px;margin-bottom:18px;background:#fff;padding:6px"></div>
+  <h1>Votre forme.<br>Votre énergie.</h1>
+  <p>Votre forme, votre énergie, votre bien-être.</p>
+  <div class="hero-actions">
+    <a class="btn btn-red" href="#tarifs">Voir les tarifs</a>
+    <a class="btn btn-white" href="https://www.facebook.com/muscu.fitnessrocroi?locale=fr_FR" target="_blank" rel="noopener">Notre Facebook ↗</a>
+  </div>
+</div></header>
+<main>
+  <h2 class="section-title">Bienvenue chez Fitness Rocroi</h2>
+  <p style="line-height:1.6;color:#555">Un espace pour bouger, progresser et prendre soin de soi, à votre rythme. Que vous débutiez ou que vous soyez déjà sportif, venez découvrir la salle.</p>
+  <div class="grid">
+    <article class="card"><div class="icon">🏋️</div><h3>Musculation</h3><p>Travaillez votre force et progressez à votre rythme.</p></article>
+    <article class="card"><div class="icon">❤️</div><h3>Cardio</h3><p>Entretenez votre endurance et votre énergie.</p></article>
+    <article class="card"><div class="icon">🤝</div><h3>Accompagnement</h3><p>Des possibilités de coaching personnalisé selon vos besoins.</p></article>
+  </div>
+
+  <h2 class="section-title" id="tarifs">Tarifs</h2>
+  <div class="grid">
+    <article class="card"><div class="small">ABONNEMENT ANNUEL</div><div class="price">120 €</div><p>Pour une année de pratique au club.</p><a class="btn btn-red" href="https://www.facebook.com/muscu.fitnessrocroi?locale=fr_FR" target="_blank" rel="noopener">Demander des informations</a></article>
+    <article class="card"><h3>Une question avant de vous inscrire ?</h3><p>Contactez le club pour confirmer les modalités d'inscription et les éventuelles offres en cours.</p><a class="btn btn-dark" href="https://www.facebook.com/muscu.fitnessrocroi?locale=fr_FR" target="_blank" rel="noopener">Contacter via Facebook</a></article>
+  </div>
+  <p class="notice" style="margin-top:12px">Le tarif affiché est l'abonnement annuel communiqué pour cette maquette. Les réductions et conditions particulières doivent être confirmées par le club avant publication définitive.</p>
+
+  <h2 class="section-title">Horaires</h2>
+  <section class="card">
+    <div class="hours"><span>Tous les jours</span><strong>09:00 – 21:00</strong></div>
+    <p class="small">Horaires communiqués par le club.</p>
+  </section>
+
+  <h2 class="section-title">Nous trouver</h2>
+  <section class="card">
+    <h3>Fitness Rocroi</h3>
+    <p>1 rue Dauphine, Caserne Marguenat<br>08230 Rocroi, France</p>
+    <a class="btn btn-red" href="https://www.google.com/maps/search/?api=1&query=Fitness+Rocroi+1+rue+Dauphine+08230+Rocroi" target="_blank" rel="noopener">Ouvrir l'itinéraire ↗</a>
+  </section>
+</main>
+<footer><strong>FITNESS ROCROI</strong><p>Votre forme, votre énergie, votre bien-être.</p><a href="https://www.facebook.com/muscu.fitnessrocroi?locale=fr_FR" target="_blank" rel="noopener">Page Facebook officielle</a><p>Maquette de démonstration — à valider avant publication.</p></footer>
+<script>
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+}
+</script>
+</body></html>

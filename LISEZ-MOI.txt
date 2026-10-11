@@ -1,0 +1,20 @@
+FITNESS ROCROI — MAQUETTE D'APPLICATION
+
+Contenu :
+- index.html : interface mobile et ordinateur
+- logo-fitness-rocroi.jpg : logo officiel intégré
+- manifest.json : métadonnées PWA
+- sw.js : cache hors ligne de base
+
+Pour tester :
+1. Décompressez le ZIP.
+2. Ouvrez index.html dans un navigateur pour voir la maquette.
+3. Pour installer comme PWA sur Android/iPhone, publiez les fichiers sur un hébergement HTTPS.
+   L'ouverture directe du fichier HTML ne permet pas l'installation PWA.
+
+À vérifier avant publication :
+- confirmer l'adresse ;
+- confirmer le tarif annuel de 120 € et les conditions ;
+- ajouter le logo officiel et des photos autorisées de la salle ;
+- créer des icônes PWA adaptées.
+Cette maquette n'est pas encore publiée sur Google Play ou l'App Store.
